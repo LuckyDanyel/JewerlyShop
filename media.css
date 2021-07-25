@@ -1,0 +1,175 @@
+@media (max-width: 1130px) {
+
+        .catigories_list {
+            max-width: 600px;
+            height: 200px;
+            margin: 0 auto;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            position: relative;
+        }
+     
+        .catigories_list_item:hover {
+            height: 50px;
+        }
+     
+        .catigories_block_image{
+              flex-flow: row wrap;
+              justify-content: space-evenly;      
+        }
+        .catigories_block_item{
+          width: 43.75%;
+        }
+}
+@media (max-width: 890px){
+      .header {
+      }
+      .container {
+            padding: 0 15px;
+      }
+      .header_menu {
+            justify-content: space-between;
+            width: 60%;
+            margin-left: auto;
+            margin-right: 10%;
+            max-width: 750px;
+            
+      }
+      .header_menu_first {
+            display: none;
+      }
+      .header_menu_first_link {
+      }
+      .header_menu_second{
+            width: 15%;
+      }
+      .header_menu_logo_img {
+      }
+      .header_menu_second_list_item:nth-child(1) {
+            display: none;
+      }      
+      .header_menu_second_list_item:nth-child(2) {
+            display: none;
+      }
+      .header_menu_second_list{
+            justify-content: flex-end;
+      }
+
+      .linking {
+
+      }
+      .linking_block {
+            flex-direction: column;
+      }
+      .linking_block_list_form {
+            width: 70%;
+      }
+      .linking_block_list {
+            padding-left: 0;
+            flex-flow: row;
+            width: 80%;
+      }
+      .linking_block_list_item {
+            width: 150px;
+      }
+      .block_flex {
+            flex-flow: row wrap;
+            height: initial;
+      }
+      .foonter_list {
+            width: 40%;
+      }
+      
+}
+
+@media (max-width: 620px){
+      .header_menu {
+            justify-content: space-between;
+            width: 100%;
+            margin-left: auto;
+            margin-right: 10%;
+            
+      }
+      .blog_item_text {
+            font-size: 13px;
+      }
+      .catigories_list_item::before {
+            content: none;
+      }
+      .linking_block_list_item {
+            font-size: 14px;
+      }
+}
+
+@media (max-width: 550px){
+
+
+      .linking_block_list_form {
+            width: 95%;
+            justify-content: space-evenly;
+      }
+      .linking_block_list_form_button {
+            font-size: 12px;
+      }
+      .catigories_list {
+            max-width: 370px;
+      }
+      
+
+}
+@media (max-width: 450px){
+
+      .header_menu_second_image {
+            margin-right: 10px;
+      }
+      .slogan__block-heading {
+            position: relative;
+            z-index: 1;
+            bottom: 100px;
+        
+      }
+      .linking_heading_2 {
+            margin-bottom: 30px;
+      }
+      .linking_block_list_form_button {
+            width: 45%;
+      }
+      .salons_block_text {
+            font-size: 16px;
+      }
+      .linking_block {
+            height: initial;
+      }
+      .linking_block_list_form {
+            height: 70px;
+      }
+      .linking_block_list {
+            flex-flow: row wrap;
+            margin-bottom: 15px;
+      }
+      .linking_block_list_item {
+            width: 100%;
+      }
+      .block_flex {
+
+      }
+      .foonter_list {
+            width: 100%;
+            justify-content: center;
+      }
+      .catigories_block_item_text {
+            font-size: 15px;
+      }
+      .catigories_list {
+            max-width: 250px;
+      }
+      .catigories_list_item {
+            width: 120px;
+      }
+      .footer_down_list {
+            flex-direction: column;
+      }
+      
+
+}
